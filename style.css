@@ -12,7 +12,7 @@ header {
     color: #3ea6ff;
 }
 
-section {
+.chamada {
     background: #b89cd5;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -34,4 +34,19 @@ p {
 
 img {
     height: 200px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.categoria-filmes {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
