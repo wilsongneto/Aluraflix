@@ -36,17 +36,28 @@ img {
     height: 200px;
 }
 
-img:hover {
-    transform: scale(1.1);
-}
-
 .categoria-filmes {
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
 
+.categoria-filmes img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-filmes img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: #2a7ae4;
 }
