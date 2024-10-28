@@ -61,3 +61,29 @@ img {
 .categoria h2 {
     color: #2a7ae4;
 }
+
+.categoria-subtitulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.categoria-subtitulo h2 {
+    color: #2a7ae4;
+    margin: 0;
+}
+
+#toggle-button {
+    background-color: #2a7ae4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+#toggle-button:hover {
+    background-color: #1a5bb8;
+}
